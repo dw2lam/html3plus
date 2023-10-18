@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top YouTube Channels</title>
+    <style>
+        table {
+            width: 100%; /* Make the table occupy the full width of the browser */
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top YouTube Channels</h1>
+
+    <table>
+        <caption>Data: <a href="https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels" target="_blank">Wikipedia</a></caption>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Brand channel</th>
+            <th>Subscribers (millions)</th>
+            <th>Primary language</th>
+            <th>Category</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>T-Series</td>
+            <td>Yes</td>
+            <td>249</td>
+            <td>Hindi</td>
+            <td>Music</td>
+            <td>India</td>
+        </tr>
+        <!-- Repeat the above row structure for all 10 channels -->
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Which of these YouTube channels have you watched before?</legend>
+            <label>
+                <input type="radio" name="watched" value="T-Series"> T-Series
+            </label>
+            <label>
+                <input type="radio" name="watched" value="MrBeast"> MrBeast
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Cocomelon"> Cocomelon
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Sony Entertainment Television India"> Sony Entertainment Television India
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Kids Diana Show"> Kids Diana Show
+            </label>
+            <label>
+                <input type="radio" name="watched" value="PewDiePie"> PewDiePie
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Like Nastya"> Like Nastya
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Vlad and Niki"> Vlad and Niki
+            </label>
+            <label>
+                <input type="radio" name="watched" value="Zee Music Company"> Zee Music Company
+            </label>
+            <label>
+                <input type="radio" name="watched" value="WWE"> WWE
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
